@@ -30,8 +30,5 @@ func day2() Solution {
 			}
 		}
 	}
-	return Solution{
-		First:  fmt.Sprintf("%d", result1),
-		Second: fmt.Sprintf("%d", result2),
-	}
+	return solve(result1, result2)
 }
